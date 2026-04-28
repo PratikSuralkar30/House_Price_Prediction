@@ -1,7 +1,5 @@
 # 🏡 House Price Prediction System 
 
-![House Price Estimator](images/actual_vs_predicted.png)
-
 ## 📌 Project Overview
 The House Price Prediction System is an end-to-end Machine Learning web application designed to estimate real estate property values based on historical data. By inputting property features such as Lot Area, Overall Quality, and Year Built, users receive an instant market valuation powered by a trained Random Forest model.
 
@@ -76,12 +74,6 @@ npm install
 npm run dev
 ```
 The application will be live at `http://localhost:3000`. 
-
-## 📸 Screenshots
-*(Upload your screenshots to the `images/` folder and replace these links)*
-- **Data Visualization:** `images/actual_vs_predicted.png`
-- **Feature Importance:** `images/feature_importance.png`
-- **Web App:** `images/webapp.png`
 
 ## 📚 Learning Outcomes
 Through this project, I gained hands-on experience with:
