@@ -6,17 +6,15 @@ venv/
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-env.bak/
-venv.bak/
 
-# ML Models
-# models/  <-- Keep this if you want the pre-trained model on GitHub
+# ML Models & Data (Stored locally only)
+models/
+data/
 
-# Data
-# data/*.csv <-- Keep sample data for demo
+# Specific Documentation (Stored locally only)
+PROJECT_GUIDE.md
+web/AGENTS.md
+web/CLAUDE.md
 
 # Frontend (Next.js)
 web/node_modules/
@@ -24,12 +22,11 @@ web/.next/
 web/out/
 web/build/
 web/.env*.local
+web/public/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Misc
-.idea/
-.vscode/
-*.log
+# Images (Stored locally only)
+images/Screenshot*
